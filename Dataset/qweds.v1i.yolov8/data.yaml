@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['BOOTS', 'Boots', 'GLASS', 'GLOVE', 'Glove', 'HELMET', 'Helmet', 'MASK', 'PERSON', 'Person', 'VEST', 'Vest', 'helmet on', 'person']
+
+roboflow:
+  workspace: masters-ppe
+  project: qweds-ji8gu-tp09l
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/masters-ppe/qweds-ji8gu-tp09l/dataset/1
