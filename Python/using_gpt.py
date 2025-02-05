@@ -44,7 +44,7 @@ def encode_image(image_path):
 
 
 # Path to your image
-image_path = "Dataset/DataSetToTestGPTModels/hat_not_on_head.jpg"
+image_path = "DataSetToTestGPTModels/hat_not_on_head.jpg"
 
 # Getting the Base64 string
 base64_image = encode_image(image_path)

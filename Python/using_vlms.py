@@ -10,7 +10,7 @@ model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
 # Load an image (replace 'path_to_image.jpg' with your image path)
-image = Image.open("Dataset/DataSetToTestGPTModels/nohats.jpg")
+image = Image.open("DataSetToTestGPTModels/hat_not_on_head.jpg")
 
 # Define a list of text prompts (e.g., PPE compliance descriptions)
 text_prompts = ["Worker wearing a hard hat on their head", "Worker not wearing a hard hat on their head"]
